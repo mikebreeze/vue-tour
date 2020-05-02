@@ -4698,6 +4698,17 @@ var DEFAULT_STEP_OPTIONS = {
     options: {
       element: '.v-step__arrow'
     }
+  }, {
+    name: 'preventOverflow',
+    options: {
+      altAxis: true,
+      padding: 15
+    }
+  }, {
+    name: 'offset',
+    options: {
+      offset: [10, 20]
+    }
   }],
   placement: 'bottom'
 };
