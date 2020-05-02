@@ -1,5 +1,6 @@
 import { shallowMount } from '@vue/test-utils'
 import VStep from '@/components/VStep.vue'
+import { DEFAULT_OPTIONS } from '@/shared/constants'
 
 const labels = {}
 
@@ -14,7 +15,7 @@ describe('VStep.vue', () => {
       propsData: {
         step,
         stop: () => {},
-        labels
+        labels: DEFAULT_OPTIONS.labels
       }
     })
 
