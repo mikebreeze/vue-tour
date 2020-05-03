@@ -59,7 +59,7 @@ export const DEFAULT_STEP_OPTIONS = {
     {
       name: 'offset',
       options: {
-        offset: [10, 20],
+        offset: [0, 20],
       },
     },
   ],
