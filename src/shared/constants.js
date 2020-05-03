@@ -54,14 +54,14 @@ export const DEFAULT_STEP_OPTIONS = {
       options: {
         altAxis: true,
         padding: 15
-      },
+      }
     },
     {
       name: 'offset',
       options: {
-        offset: [0, 20],
-      },
-    },
+        offset: [0, 20]
+      }
+    }
   ],
   placement: 'bottom'
 }
